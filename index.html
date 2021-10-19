@@ -27,8 +27,19 @@
   <main>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
+        <div class="col-md-6">
+          <div class="m-2">
+            <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/32464/green-soda-can-clipart-md.png"
+              height="250" alt="Soda">
+          </div>
+          <div>Total input in $$ = <span id="totalMoney">0</span></div>
+          <div>
+            <button class="btn bg-success darken-15 round shadow mt-3 text-light"
+              onclick="app.vendingController.addQuarter()">Add
+              Quarter</button>
+            <button class="btn bg-success darken-15 round shadow mt-3 text-light"
+              onclick="app.vendingController.addDollar()">Add Dollar</button>
+          </div>
         </div>
       </div>
     </div>

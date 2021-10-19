@@ -1,1 +1,7 @@
 /* BASIC STYLES HERE */
+
+.image-contain {
+max-height: 250px;
+max-width: 200px;
+object-fit: cover;
+}
